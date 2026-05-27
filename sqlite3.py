@@ -139,6 +139,7 @@ def create_new_database():
     conn.close()
     return df_new
 
+
 new_student_data = create_new_database()
 display(new_student_data.head())
 
